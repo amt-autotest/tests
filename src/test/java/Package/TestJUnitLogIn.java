@@ -24,7 +24,7 @@ import static org.junit.Assert.*;
 public class TestJUnitLogIn {
 
     WebDriver driver = new ChromeDriver();
-    WebDriverWait myWaitVar = new WebDriverWait(driver, 30);
+    WebDriverWait myWaitVar = new WebDriverWait(driver, 40);
 
     @Before
     public void setUp() {
